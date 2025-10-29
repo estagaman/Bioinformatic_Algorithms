@@ -1,6 +1,6 @@
-#problem2 
-#first line of the file: k-mer constant, second line of the file: sequence 
-#split into k-mers, sort alphabetically, then print out composition separated by spaces 
+#kmer_composition.py: find the kmer composition of a sequence based on a user-specified kmer length
+#INPUT: k-mer length as the first line, sequence on second line 
+#OUTPUT: txt file with the count of each unique kmer
 
 import sys
 import argparse
