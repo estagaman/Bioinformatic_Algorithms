@@ -1,4 +1,7 @@
-#dynamic programming 
+#alignment_score.py: dynamic programming to find best alignment score between two sequences
+#INPUT: fasta file with one sequence per line (total 2 sequences)
+#OUTPUT: txt file with best alignment score for those 2 sequences
+
 #tips: use numPy or make a list of lists 
 #calculate the edit distance between two sequences 
 #first function to calculate the alignment scores 
