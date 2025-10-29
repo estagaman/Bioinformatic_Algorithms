@@ -1,3 +1,7 @@
+#mrna_translation.py: a script for mrna translation to protein with intron removal
+#INPUT: fasta file with mrna sequence as the first line, and introns to remove in every following line
+#OUTPUT: translated protein sequence, with introns removed 
+
 import sys
 import argparse
 #function to parse command line arguments
