@@ -1,5 +1,6 @@
-#given a genus name and two dates in YYYY/MM/DD format 
-#find number of nucleotide database entries on that genus published between dates 
+#NCBI_search.py: based on a genus name and start and end date, find all NCBI nucleotide database entries published during the specified time frame
+#INPUT: txt file with genus name on first line and two dates in YYYY/MM/DD format on second and third lines
+#OUTPUT: txt file the number of records matching your query
 
 import sys
 import argparse
