@@ -1,4 +1,7 @@
-#build the alignment from the matrix 
+#build_alignment.py: build a Needleman-Wunsch global alignment for two sequences 
+
+#INPUT: fasta file with one sequence per line (total sequences)
+#OUTPUT: txt file with alignment score on first line, sequence 1 alignment on second line, and sequence 2 alignment on third line
 
 #argparse 
 import sys
