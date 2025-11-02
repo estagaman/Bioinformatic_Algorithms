@@ -1,3 +1,9 @@
+#adjacency_list.py: creates a kmer adjacency list from a list of sequences
+
+#INPUT: txt file with sequence on each line
+#OUTPUT: txt file with adjacent k-1mers from each sequence
+
+
 #argparse 
 import sys
 import argparse
