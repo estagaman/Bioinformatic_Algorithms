@@ -1,3 +1,8 @@
+#de_bruijn_graph.py: from a txt file of sequences and desired kmer length, create a de bruijn graph which we can traverse in exactly two complete loops, resulting in a final sequence assembly
+#note: this also determines the optimal kmer size internally
+#INPUT: txt file with one sequence per line
+#OUTPUT: two lines, one sequence per line. The first sequence is the first complete loop through our de bruijn graph, while the second sequence is the second complete loop
+
 #argparse 
 import sys
 import argparse
