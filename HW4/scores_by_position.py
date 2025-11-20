@@ -1,3 +1,6 @@
+#INPUT: fastq file of sequences of the same length, with first line being the mean minimum PHRED score allowed at each position
+#OUTPUT: the number of positions across the given sequences that are below the mean minimum PHRED score
+
 #argparse 
 import sys
 import argparse
