@@ -1,3 +1,6 @@
+#INPUT: fastq file, where the first line indicates the minimum PHRED score and percentage of a sequence needed to pass that PHRED score to keep it 
+#OUTPUT: the number of sequences in the fastq file that meet the quality constraints given by the first line
+
 #argparse 
 import sys
 import argparse
