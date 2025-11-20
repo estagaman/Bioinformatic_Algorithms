@@ -1,3 +1,8 @@
+#N50_N75_calculation.py: calculates the N50 and N75 for a given list of contigs from assembly
+
+#INPUT: file with one contig for each line
+#OUTPUT: N50 and N75 for the compiled contigs
+
 #argparse 
 import sys
 import argparse
